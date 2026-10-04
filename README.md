@@ -4,7 +4,7 @@ These are my personal study notes from learning Oracle Database and working with
 
 ## About these notes
 
-The chapters begin with relational foundations and database tools, then move through Oracle SQL, data changes, constraints, query plans, PL/SQL, security, recovery, and JavaScript application access. Each chapter explains why a concept matters, includes practical examples, and ends with review questions.
+The chapters begin with relational foundations and database tools, then move through Oracle SQL, data changes, constraints, query plans, PL/SQL, security, recovery, and JavaScript application access. Each chapter explains why a concept matters, includes practical Oracle SQL, PL/SQL, or JavaScript examples, and ends with review questions. The final appendices collect all chapter code samples and provide answers to every review question.
 
 SQL examples use Oracle syntax. Application examples use JavaScript with the Oracle-maintained node-oracledb driver. Oracle Database editions, installed sample schemas, client tools, and driver requirements can vary, so check the official documentation for the environment you use.
 
