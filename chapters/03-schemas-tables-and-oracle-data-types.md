@@ -33,7 +33,9 @@ Run this statement while connected to a disposable practice schema:
 CREATE TABLE employees (
   employee_id NUMBER,
   full_name VARCHAR2(100 CHAR),
+  department_id NUMBER,
   salary NUMBER(10, 2),
+  commission_pct NUMBER(4, 3),
   hire_date DATE,
   biography CLOB,
   profile_photo BLOB
@@ -42,7 +44,7 @@ CREATE TABLE employees (
 
 The **CHAR** length qualifier says the text limit is expressed in characters. Oracle also supports byte-based semantics. Choose a clear convention for multilingual text and document it for the schema.
 
-The table is intentionally simple here. The next chapter on constraints adds a primary key and validation rules.
+The table is intentionally simple here. A later chapter adds a primary key and validation rules.
 
 ## Inspect columns
 
