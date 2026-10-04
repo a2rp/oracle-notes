@@ -55,7 +55,7 @@ CREATE OR REPLACE PROCEDURE raise_employee_salary (
   p_percent IN NUMBER
 ) AS
 BEGIN
-  IF p_percent <= 0 OR p_percent > 25 THEN
+  IF p_percent IS NULL OR p_percent <= 0 OR p_percent > 25 THEN
     RAISE_APPLICATION_ERROR(-20002, 'Raise percent is outside the allowed range');
   END IF;
 
